@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'JZHDownloader_Example' do
+  pod 'JZHDownloader', :path => '../'
+
+  target 'JZHDownloader_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+  end
+end
