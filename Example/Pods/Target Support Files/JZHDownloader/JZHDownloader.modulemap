@@ -1,0 +1,6 @@
+framework module JZHDownloader {
+  umbrella header "JZHDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
